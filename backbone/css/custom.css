@@ -1,0 +1,263 @@
+/* ========================================================================
+   Component: Custom
+   primary-color: #1e87f0;
+   dark-primary-color: #0f7ae5;
+   success-color: #32d296;
+ ========================================================================== */
+
+body{
+	background-image: url("../img/background.jpg");
+	height:100%;
+}
+
+.radio-label{
+	cursor: pointer;
+	margin-top: 7px;
+}
+.uk-container{
+	background: transparent;
+}
+.uk-text-white{
+	color: white;
+}
+.uk-background-white{
+	background: white !important;
+}
+.button-transparent{
+	background: transparent;
+	border: inherit;
+	color: white;
+	border-style: solid;
+	border-width: 1px;
+}
+.button-transparent:after {
+  transition: 0.5s;
+}
+
+.button-transparent:hover {
+  background: white;
+  color: #1e87f0;
+}
+
+.button-rounded{
+	border-radius: 40px;
+}
+.button-rounded-sm{
+	border-radius: 5px;
+}
+.button-user{
+	background: white;
+	color: #1e87f0;
+}
+.container-overlay{
+	opacity:0.97;
+}
+.main-navbar{
+	background: transparent !important;
+}
+/* Navbar menu item */
+.main-navbar li > a{
+	color: white;
+	font-weight: bold;
+}
+.main-navbar li > a:hover{
+	color: #1e87f0;
+}
+.quiz-top-navbar{
+	background: #1e87f0 !important;
+}
+.quiz-top-navbar li > a > span{
+	color: white;
+}
+.quiz-top-navbar li:hover > a > span{
+	color: #0257ab;
+}
+.quiz-top-menu-item{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.uk-search-quiz{
+	background: white;
+	width: 250px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 40px;
+}
+.uk-search-quiz input, .uk-search-quiz .uk-search{
+	border-style: none !important;
+	background: transparent;
+	width: 250px;
+}
+.top-content {
+	background-image: url("../img/test-background.jpg");
+	background-size: auto;
+}
+.uk-table-hover{
+	cursor: pointer;
+}
+
+/* fonts */
+.font-monospace {
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+/* statistics */
+.stats-square-primary{
+	background-color: #279fe0;
+}
+
+.stats-square-primary-dark{
+	background-color: #1e91cf;
+	height: 40px; 
+	padding: 5px;
+}
+
+.stats-square-primary-light{
+	background-color: #3da9e3;
+	height: 40px; 
+	padding: 5px;
+}
+.stats-event-item{
+	padding-left: 30px;
+}
+/* date-picker */
+.datepicker-box {
+	font-size: 0.75rem;
+	font-weight: 400;
+	display: block;
+	margin-bottom: 0.1rem;
+	color: #B0BEC5;
+	border: 1px solid #ECEFF1;
+	padding: 0.5rem 0.5rem;
+	border-radius: 0.5rem;
+}
+.datepicker {
+	font-family: 'Roboto', sans-serif;
+	display:block;
+	border: none;
+	border-radius: 0.25rem;
+	border: 1px solid transparent;
+	line-height: 1.5rem;
+	padding: 0;
+	font-size: 1rem;
+	color: #607D8B;
+	width: 100%;
+	margin-top: 0.1rem;
+}
+.datepicker:focus {outline: none;}
+#ui-datepicker-div {
+	display: none;
+	background-color: #fff;
+	box-shadow: 0 0.125rem 0.5rem rgba(0,0,0,0.1);
+	margin-top: 0.25rem;
+	border-radius: 0.5rem;
+	padding: 0.5rem;
+}
+.ui-datepicker-calendar thead th {
+	padding: 0.25rem 0;
+	text-align: center;
+	font-size: 0.75rem;
+	font-weight: 400;
+	color: #78909C;
+}
+.ui-datepicker-calendar tbody td {
+	width: 2.5rem;
+	text-align: center;
+	padding: 0;
+}
+.ui-datepicker-calendar tbody td a {
+	display: block;
+	border-radius: 0.25rem;
+	line-height: 2rem;
+	transition: 0.3s all;
+	color: #546E7A;
+	font-size: 0.875rem;
+	text-decoration: none;
+}
+.ui-datepicker-calendar tbody td a:hover {	
+	background-color: #E0F2F1;
+}
+.ui-datepicker-calendar tbody td a.ui-state-active {
+	background-color: #009688;
+	color: white;
+}
+.ui-datepicker-header a.ui-corner-all {
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	width: 2rem;
+	height: 2rem;
+	margin: 0.5rem;
+	border-radius: 0.25rem;
+	transition: 0.3s all;
+}
+.ui-datepicker-header a.ui-corner-all:hover {
+	background-color: #ECEFF1;
+}
+.ui-datepicker-header a.ui-datepicker-prev {	
+	left: 0;	
+	background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMyIgaGVpZ2h0PSIxMyIgdmlld0JveD0iMCAwIDEzIDEzIj48cGF0aCBmaWxsPSIjNDI0NzcwIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik03LjI4OCA2LjI5NkwzLjIwMiAyLjIxYS43MS43MSAwIDAgMSAuMDA3LS45OTljLjI4LS4yOC43MjUtLjI4Ljk5OS0uMDA3TDguODAzIDUuOGEuNjk1LjY5NSAwIDAgMSAuMjAyLjQ5Ni42OTUuNjk1IDAgMCAxLS4yMDIuNDk3bC00LjU5NSA0LjU5NWEuNzA0LjcwNCAwIDAgMS0xLS4wMDcuNzEuNzEgMCAwIDEtLjAwNi0uOTk5bDQuMDg2LTQuMDg2eiIvPjwvc3ZnPg==");
+	background-repeat: no-repeat;
+	background-size: 0.5rem;
+	background-position: 50%;
+	transform: rotate(180deg);
+}
+.ui-datepicker-header a.ui-datepicker-next {
+	right: 0;
+	background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMyIgaGVpZ2h0PSIxMyIgdmlld0JveD0iMCAwIDEzIDEzIj48cGF0aCBmaWxsPSIjNDI0NzcwIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik03LjI4OCA2LjI5NkwzLjIwMiAyLjIxYS43MS43MSAwIDAgMSAuMDA3LS45OTljLjI4LS4yOC43MjUtLjI4Ljk5OS0uMDA3TDguODAzIDUuOGEuNjk1LjY5NSAwIDAgMSAuMjAyLjQ5Ni42OTUuNjk1IDAgMCAxLS4yMDIuNDk3bC00LjU5NSA0LjU5NWEuNzA0LjcwNCAwIDAgMS0xLS4wMDcuNzEuNzEgMCAwIDEtLjAwNi0uOTk5bDQuMDg2LTQuMDg2eiIvPjwvc3ZnPg==');
+	background-repeat: no-repeat;
+	background-size: 10px;
+	background-position: 50%;
+}
+.ui-datepicker-header a>span {
+	display: none;
+}
+.ui-datepicker-title {
+	text-align: center;
+	line-height: 2rem;
+	margin-bottom: 0.25rem;
+	font-size: 0.875rem;
+	font-weight: 500;
+	padding-bottom: 0.25rem;
+}
+.ui-datepicker-week-col {
+	color: #78909C;
+	font-weight: 400;
+	font-size: 0.75rem;
+}
+/* QUESTIONS PANEL */
+#addQuestionBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  width: 70px;
+  height: 70px;
+  color: #32d296;
+}
+
+#addQuestionBtn:hover {
+	color: white;
+	background: #32d296;
+}
+
+.cursor-pointer{
+	cursor: pointer;
+}
+.img-container {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  overflow: hidden;
+  
+}
+.img-container .img-to-fit {
+	flex: 1;
+	object-fit: contain;
+	width: 100%
+}
+
+.uk-textarea-vertical{
+	resize: vertical;
+}
